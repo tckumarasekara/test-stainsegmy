@@ -3,3 +3,4 @@ exclude models/*
 exclude __pycache__
 exclude 2751*
 exclude Segmentation_*
+exclude stainsegmy_*

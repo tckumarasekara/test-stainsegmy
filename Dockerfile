@@ -10,7 +10,3 @@ COPY . /app
 
 RUN pip install --no-cache-dir --upgrade pip setuptools wheel \
     && pip install .
-
-#ENTRYPOINT ["stainsegmy"]
-
-#docker run --rm --gpus all -v $(pwd):/data -v $(pwd):/output stainsegmy -i /data/2751_CRC027-rack-01-well-A01-roi-001.tif -o /output --cuda --architecture U-NeXt
